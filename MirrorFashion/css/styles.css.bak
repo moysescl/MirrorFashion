@@ -1,0 +1,92 @@
+
+body {
+color : #333333;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.shopping-bag {
+background-image: url(../img/bag.png);
+background-repeat: no-repeat;
+background-position: top right;
+
+font-size : 14px;
+padding-right : 35px;
+text-align: right;
+width : 140px;
+padding-top : 8px;
+
+position : absolute;
+top : 0;
+right : 0;
+}
+
+.menu-options ul {
+font-size : 15px;
+}
+
+.menu-options a {
+color: #003366;
+}
+
+.menu-options ul li {
+display : inline;
+margin-left : 20px;
+}
+
+.container{
+margin : 0 auto;
+width : 940px;
+}
+
+header{
+position : relative;
+}
+
+.menu-options{
+position : absolute;
+bottom : 0;
+right : 0;
+}
+
+.search,
+.menu-departments{
+    background-color : #DCDCDC;
+    font-weight : bold;
+    text-transform : uppercase;
+    margin-right : 10px;
+    width : 230px;
+}
+
+.search h2,
+.search form,
+.menu-departments h2 {
+    margin : 10px;
+}
+
+.menu-departments li{
+    background-color : white;
+    margin-bottom : 1px;
+    padding : 5px 10px;
+}
+
+.menu-departments a{
+    color : #333333;
+    text-decoration : none;
+}
+
+.search input[type=search]{
+    width : 170px;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+    border-bottom-left-radius : 10px;
+    border-bottom-right-radius : 10px;
+    margin-left : 5px;
+    margin-bottom : 10px;
+}
+
+.search button {
+    color : inherit;
+    border : 0;
+}
+
